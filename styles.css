@@ -1,31 +1,19 @@
-.para {
-    font-weight: bolder;
-    font-size: larger;
-}
-
-.para.small-para {
-    font-size: small;
-}
-
-#confirm-button {
-    background-color: green;
-    color: white;
-}
-
-#cancel-button {
-    background-color: transparent;
-}
-
-.text > .child {
-    font-size: larger;
-    color: aqua;
-}
-
- .text {
-
-font-weight: thin;
-}
-
- #one {
-    color: pink;
-}
+.container {
+    background: dodgerblue;
+    border: 4px solid midnightblue;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box {
+    background: palevioletred;
+    font-weight: bold;
+    text-align: center;
+    border: 6px solid maroon;
+    width: 80px;
+    height: 80px;
+    
+  }
